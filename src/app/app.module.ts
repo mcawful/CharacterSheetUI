@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainBodyComponent } from './components/main-body/main-body.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { MainBodyViewComponent } from './components/main-body-view/main-body-view.component';
+import { NavbarViewComponent } from './components/navbar-view/navbar-view.component';
 import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainBodyComponent,
-    NavbarComponent
+    MainBodyViewComponent,
+    NavbarViewComponent
   ],
   imports: [
     BrowserModule,
