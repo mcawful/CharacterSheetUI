@@ -126,6 +126,7 @@
   },
   "defaultProject": "CharacterSheetUI",
   "cli": {
-    "analytics": "2dcc9d0c-a9d2-4d80-8573-d50af3067b05"
+    "analytics": "2dcc9d0c-a9d2-4d80-8573-d50af3067b05",
+    "defaultCollection": "@ngrx/schematics"
   }
 }
